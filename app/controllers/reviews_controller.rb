@@ -24,7 +24,7 @@ def review_params
 end
 
 def find_play
-  @play = Play.find(parmams[:play_id])
+  @play = Play.find(params[:play_id])
 end
 
 end
